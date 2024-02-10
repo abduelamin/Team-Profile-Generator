@@ -7,7 +7,7 @@ The Team Profile Generator is a Node.js application designed to simplify the cre
 ## Features
 
 - **User-Friendly Interface:** The application provides a simple and interactive prompt system to guide users through the team profile creation process.
-- **Markdown Formatting:** Automatically formats user input into valid Markdown syntax for easy integration into your project's documentation.
+
 - **Customization:** Easily customize and extend the functionality to suit the specific requirements of your project.
 
 ## Prerequisites
@@ -19,8 +19,10 @@ Before running the application, make sure you have the following installed on yo
 
 ## Technologies Used
 
-- **JavaScript:** The primary programming language used for dynamic functionality and interaction with the command line.
-- **Node.js:** A JavaScript runtime environment that allows running JavaScript on the server side.
+- **JavaScript**: Programming language used to implement dynamic functionality, fetch weather data, and update the DOM.
+- **Node.js**: A JavaScript runtime environment.
+- **Inquirer**: Used for interactive command-line user interfaces.
+- **Jest**: JavaScript testing framework for writing and running tests.
 
 ## Getting Started
 
