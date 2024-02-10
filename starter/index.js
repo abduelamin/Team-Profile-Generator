@@ -49,8 +49,8 @@ const createTeam = [];
 function askManagerQuestions() {
   inquirer.prompt(questions.slice(0, 4)).then((answers) => {
     const manager = new Manager(
-      answers.Managername,
       answers.ManagerID,
+      answers.Managername,
       answers.ManagerEmail,
       answers.ManagerOfficeNumber
     );
@@ -106,8 +106,8 @@ function createEngineer() {
     ])
     .then((answers) => {
       const engineer = new Engineer(
-        answers.engineerName,
         answers.engineerID,
+        answers.engineerName,
         answers.engineerEmail,
         answers.engineerGithub
       );
@@ -142,8 +142,8 @@ function createIntern() {
     ])
     .then((answers) => {
       const intern = new Intern(
-        answers.internName,
         answers.internID,
+        answers.internName,
         answers.internEmail,
         answers.internSchool
       );

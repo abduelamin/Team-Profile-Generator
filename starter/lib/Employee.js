@@ -1,7 +1,7 @@
 // TODO: Write code to define and export the Employee class
 
 class Employee {
-  constructor(id, name, email) {
+  constructor(id, name = "", email = "") {
     this.id = id;
     this.name = name;
     this.email = email;
@@ -23,7 +23,5 @@ class Employee {
     return "Employee";
   }
 }
-
-module.exports = Employee;
 
 module.exports = Employee;
