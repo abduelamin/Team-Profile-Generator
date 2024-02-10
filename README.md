@@ -36,9 +36,7 @@ Before running the application, make sure you have the following installed on yo
 
 5. Follow the prompts to enter the details of your team members and generate the team profile.
 
-  <!-- ![readmegenerator](https://github.com/abduelamin/README-Generator/assets/149680577/a12bfd7f-f884-462e-82fc-4a4c9c6d92a6)
-
-<!-- Video showcasing How to use this application: https://youtu.be/TV3VDqo_2oM --> //NEEDS FIXING
+![Team profile](https://github.com/abduelamin/Team-Profile-Generator/assets/149680577/7d6fb6ff-e9c9-4f1c-8f2f-906f10bcc943)
 
 ## Contributing
 
