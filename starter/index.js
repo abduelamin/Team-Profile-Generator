@@ -46,7 +46,24 @@ const questions = [
 
 const createTeam = [];
 
-// Errors need solving here because files not working as intended
+function askManagerQuestions() {
+  inquirer.prompt(questions.slice(0, 4)).then((answers) => {
+    const manager = new Manager(
+      answers.Managername,
+      answers.ManagerID,
+      answers.ManagerEmail,
+      answers.ManagerOfficeNumber
+    );
+    createTeam.push(manager);
+    if (answers.moreEmployees !== "No more employees to add") {
+      promptForEmployee();
+    } else {
+      const renderedHtml = render(createTeam);
+      fs.writeFileSync(outputPath, renderedHtml);
+      console.log("Team profile successfully generated!");
+    }
+  });
+}
 
 function promptForEmployee() {
   inquirer.prompt(questions.slice(4)).then((answers) => {
